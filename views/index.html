@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>URL Shortener API</title>
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>URL Shortener API</h1>
+    <div class="container">
+      <h2>How to use:</h2>
+      <p>Clone the following github repository: <a href="https://github.com/akcm25/fcc-api-2">https://github.com/akcm25/fcc-api-2</a></p>
+      <p>Run <strong>npm start</strong> on terminal.</p>
+      <p>Go to <a href="localhost:3000">localhost:3000</a></p>
+      <br />
+
+      <form action="api/shorturl" method="POST">
+          <label for="url_input">URL:</label>
+          <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+          <input type="submit" value="POST URL" />
+      </form>
+    </div>
+    
+    <div class="footer">
+      <p>
+        <strong>By Amine Kacimi.</strong>
+      </p>
+      <p>Thanks to <a href="https://freecodecamp.org"><strong>freeCodeCamp</strong></a></p>
+    </div>
+  </body>
+</html>
